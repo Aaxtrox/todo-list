@@ -1,8 +1,10 @@
 // Import the 'style.css' file
 import './style.css';
 
-// Import the 'menu' function from the 'menu' module
+// Import functions from other files
 import menu from './menu';
+import input from './input';
 
-// Call the 'menu' function to display the menu options in the console
+// Call functions
 menu();
+input();
