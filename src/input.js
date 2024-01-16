@@ -1,6 +1,7 @@
 // Import functions
 import today from "./today";
 import thisweek from "./thisweek";
+import anyTime from "./anytime";
 
 // Define a function named 'input'
 const input = function () {
@@ -18,6 +19,10 @@ const input = function () {
     } else if (userInput === "2") {
         // Call the 'thisweek' function
         thisweek();
+    // If the user's input is a number 3
+    } else if (userInput === "3") {
+        // Call the 'anyTime' function
+        anyTime();
     }
 };
 

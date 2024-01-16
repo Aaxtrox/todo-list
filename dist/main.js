@@ -110,6 +110,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/anytime.js":
+/*!************************!*\
+  !*** ./src/anytime.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _returnMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./returnMenu */ \"./src/returnMenu.js\");\n// Import the 'returnMenu' function\n\n\n// Define a function named 'anyTime' using function expression syntax\nconst anyTime = function () {\n    // Log the string 'This Week' to the console\n    console.log('Any Time');\n\n    // Call the 'returnMenu' function\n    (0,_returnMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n// Export the 'anyTime' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (anyTime);\n\n//# sourceURL=webpack://todo-list/./src/anytime.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -126,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _today__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./today */ \"./src/today.js\");\n/* harmony import */ var _thisweek__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./thisweek */ \"./src/thisweek.js\");\n// Import functions\n\n\n\n// Define a function named 'input'\nconst input = function () {\n    // Use the 'prompt' function to get user input and store it in 'userInput'\n    let userInput = prompt(\"Enter a number\");\n\n    // Log the user's input to the console\n    console.log('User input: ', userInput);\n\n    // If the user's input is a number 1\n    if (userInput === \"1\") {\n        // Call the 'today' function\n        (0,_today__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    // If the user's input is a number 2\n    } else if (userInput === \"2\") {\n        // Call the 'thisweek' function\n        (0,_thisweek__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    }\n};\n\n// Export the 'input' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (input);\n\n//# sourceURL=webpack://todo-list/./src/input.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _today__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./today */ \"./src/today.js\");\n/* harmony import */ var _thisweek__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./thisweek */ \"./src/thisweek.js\");\n/* harmony import */ var _anytime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./anytime */ \"./src/anytime.js\");\n// Import functions\n\n\n\n\n// Define a function named 'input'\nconst input = function () {\n    // Use the 'prompt' function to get user input and store it in 'userInput'\n    let userInput = prompt(\"Enter a number\");\n\n    // Log the user's input to the console\n    console.log('User input: ', userInput);\n\n    // If the user's input is a number 1\n    if (userInput === \"1\") {\n        // Call the 'today' function\n        (0,_today__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    // If the user's input is a number 2\n    } else if (userInput === \"2\") {\n        // Call the 'thisweek' function\n        (0,_thisweek__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    // If the user's input is a number 3\n    } else if (userInput === \"3\") {\n        // Call the 'anyTime' function\n        (0,_anytime__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n    }\n};\n\n// Export the 'input' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (input);\n\n//# sourceURL=webpack://todo-list/./src/input.js?");
 
 /***/ }),
 
