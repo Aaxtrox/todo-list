@@ -1,5 +1,6 @@
-// Import the 'today' function from the 'today.js' module
+// Import functions
 import today from "./today";
+import thisweek from "./thisweek";
 
 // Define a function named 'input'
 const input = function () {
@@ -13,6 +14,10 @@ const input = function () {
     if (userInput === "1") {
         // Call the 'today' function
         today();
+    // If the user's input is a number 2
+    } else if (userInput === "2") {
+        // Call the 'thisweek' function
+        thisweek();
     }
 };
 

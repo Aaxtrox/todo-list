@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _today__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./today */ \"./src/today.js\");\n// Import the 'today' function from the 'today.js' module\n\n\n// Define a function named 'input'\nconst input = function () {\n    // Use the 'prompt' function to get user input and store it in 'userInput'\n    let userInput = prompt(\"Enter a number\");\n\n    // Log the user's input to the console\n    console.log('User input: ', userInput);\n\n    // If the user's input is a number 1\n    if (userInput === \"1\") {\n        // Call the 'today' function\n        (0,_today__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    }\n};\n\n// Export the 'input' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (input);\n\n//# sourceURL=webpack://todo-list/./src/input.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _today__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./today */ \"./src/today.js\");\n/* harmony import */ var _thisweek__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./thisweek */ \"./src/thisweek.js\");\n// Import functions\n\n\n\n// Define a function named 'input'\nconst input = function () {\n    // Use the 'prompt' function to get user input and store it in 'userInput'\n    let userInput = prompt(\"Enter a number\");\n\n    // Log the user's input to the console\n    console.log('User input: ', userInput);\n\n    // If the user's input is a number 1\n    if (userInput === \"1\") {\n        // Call the 'today' function\n        (0,_today__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    // If the user's input is a number 2\n    } else if (userInput === \"2\") {\n        // Call the 'thisweek' function\n        (0,_thisweek__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    }\n};\n\n// Export the 'input' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (input);\n\n//# sourceURL=webpack://todo-list/./src/input.js?");
 
 /***/ }),
 
@@ -150,13 +150,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/thisweek.js":
+/*!*************************!*\
+  !*** ./src/thisweek.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _returnMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./returnMenu */ \"./src/returnMenu.js\");\n// Import the 'returnMenu' function\n\n\n// Define a function named 'thisWeek' using function expression syntax\nconst thisWeek = function () {\n    // Log the string 'This Week' to the console\n    console.log('This Week');\n\n    // Call the 'returnMenu' function\n    (0,_returnMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n// Export the 'thisWeek' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (thisWeek);\n\n//# sourceURL=webpack://todo-list/./src/thisweek.js?");
+
+/***/ }),
+
 /***/ "./src/today.js":
 /*!**********************!*\
   !*** ./src/today.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _returnMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./returnMenu */ \"./src/returnMenu.js\");\n// Define a function named 'today'\n\n\n// Define a function named 'today' using function expression syntax\nconst today = function () {\n    // Log the string 'TODAY' to the console\n    console.log('TODAY');\n\n    // Call the 'returnMenu' function\n    (0,_returnMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n// Export the 'today' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (today);\n\n//# sourceURL=webpack://todo-list/./src/today.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _returnMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./returnMenu */ \"./src/returnMenu.js\");\n// Import the 'returnMenu' function\n\n\n// Define a function named 'today' using function expression syntax\nconst today = function () {\n    // Log the string 'TODAY' to the console\n    console.log('TODAY');\n\n    // Call the 'returnMenu' function\n    (0,_returnMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n// Export the 'today' function as the default export of this module\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (today);\n\n//# sourceURL=webpack://todo-list/./src/today.js?");
 
 /***/ })
 
