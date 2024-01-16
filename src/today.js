@@ -1,3 +1,4 @@
+// Define a function named 'today'
 import returnMenu from "./returnMenu";
 
 // Define a function named 'today' using function expression syntax

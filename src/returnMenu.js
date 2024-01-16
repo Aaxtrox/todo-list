@@ -2,6 +2,7 @@
 import menu from './menu.js';
 import input from './input';
 
+// Create a function called 'returnMenu'
 const returnMenu = function () {
     // Use the 'prompt' function to get user input and store it in 'userInput'
     let userInput = prompt('Enter a number 1 to return to the menu');
