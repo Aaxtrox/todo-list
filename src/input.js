@@ -2,6 +2,7 @@
 import today from "./today";
 import thisweek from "./thisweek";
 import anyTime from "./anytime";
+import listnames from "./listnames";
 
 // Define a function named 'input'
 const input = function () {
@@ -23,6 +24,9 @@ const input = function () {
     } else if (userInput === "3") {
         // Call the 'anyTime' function
         anyTime();
+    } else if (userInput === "4") {
+        // Call the 'listNames' function
+        listnames();
     }
 };
 
