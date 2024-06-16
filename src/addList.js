@@ -40,6 +40,9 @@ const addList = function () {
         console.log(lists[i].name);
     }
 
+    // Update the 'lists' array in localStorage
+    localStorage.setItem('lists', JSON.stringify(lists));
+
     // Call the 'returnMenu' function
     returnMenu();
 
