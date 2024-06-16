@@ -9,6 +9,25 @@ const addList = function () {
 
     // Ask the user for a list name
     let listName = prompt('Enter the name of the list:');
+
+    // Iterate through the 'lists' array to check if 'listName' already exists
+    for (let i = 0; i < lists.length; i++) {
+        // If a list with the same name already exists
+        if (lists[i].name === listName) {
+            let count = 1;
+            
+            // Increment the count and append a number in parentheses until a unique name is found
+            while (lists.some(list => list.name === listName + ` (${count})`)) {
+                count++;
+            }
+            
+            // Update 'listName' to include the count in parentheses for uniqueness
+            listName += ` (${count})`;
+            
+            // Exit the loop once a unique name is found
+            break;
+        }
+    }
     
     // Push an object representing a list into the 'lists' array
     lists.push({name: listName, tasks: []});
