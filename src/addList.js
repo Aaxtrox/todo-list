@@ -3,7 +3,7 @@ import data from "./data";
 import returnMenu from "./returnMenu";
 
 // Define a function named 'addList' using function expression syntax
-const addList = function (listName) {
+const addList = function () {
     // Retrieve lists from the 'data' module
     let lists = data();
 
@@ -15,7 +15,15 @@ const addList = function (listName) {
     
     // Log the string 'List added' to the console
     console.log('List added');
-    
+
+    // Log the names of the lists to the console
+    for (let i = 0; i < lists.length; i++) {
+        console.log(lists[i].name);
+    }
+
+    // Call the 'returnMenu' function
+    returnMenu();
+
     // Return the 'lists' array
     return lists;
 };

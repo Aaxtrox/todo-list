@@ -14,6 +14,9 @@ const menu = function () {
 
     // Log the fourth menu option to the console
     console.log('4 Display All Lists');
+
+    // Log the fifth menu option to the console
+    console.log('5 Add List');
 };
 
 // Export the menu function as the default export of this module
